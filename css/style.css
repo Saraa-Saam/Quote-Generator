@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 80px;
+}
+.container p{
+    font-size: 35px;
+    padding: 30px;
+
+}
+.btn-new{
+    padding: 20px 50px;
+    background-color: blue;
+    color: white;
+}
+.btn-new:hover{
+    background-color: green;
+}
